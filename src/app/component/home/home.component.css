@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.15;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.about-img{
+    margin-left:-100px;
+    
+    margin-top: 15px;
+    
+}
+
+.btnCV{
+    padding: 10px 25px;
+    border-radius: 100px;
+    
+
+}
+
+.principal{
+    padding-top: 30px;
+   
+}
+
+#home{
+
+    background-image: linear-gradient( 109.6deg,  rgba(199, 45, 213, 0.589) 11.2%, rgb(46, 58, 161) 91.2% );
+
+}
+
+
+.text-name{
+    text-decoration:underline;
+    
+}
+
+
+.carousel-img{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    width:100;
+    
+}
+
+.title{
+    color: rgba(129, 6, 129, 0.459);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.bar{
+    background-color: rgba(15, 1, 1, 0.589);
+    display: block;
+    margin-top: 10px;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 2px 0px 10px rgb(0, 217, 255);
+}
+
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bar span{
+    height: 4px;
+    float: left;
+    background:#e205a0
+}
+
+.text{
+    font-family: 'Nunito', sans-serif;
+}
+
+.angular{
+    width: 60%;
+}
+
+.sql{
+    width:60%;
+}
+
+.c{
+    width: 50%;
+}
+
+.python{
+    width: 30%;
+}
+
+.java{
+    width: 30%;
+}
+
+.portfolio-item{
+    opacity: 0.85;
+    transition: 0.5s;
+    padding: 5px;
+    
+    
+    
+}
+
+.portfolio-item:hover{
+    opacity: 1;
+    background-color: rgba(238, 0, 198, 0.116);
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+}
+
+.card{
+    display: flex;
+    height: 430px;
+    min-height: 425px;
+    background-color: rgba(58, 58, 250, 0.219);
+
+}
+
+.img-proyect{
+    width: 327px;
+    height: 127px;
+    
+}
+
+.contact-item{
+    border-style: solid;
+    background-color: rgba(0, 0, 255, 0.041);
+    border-top-width: 0px;
+    border-bottom-width:0px;
+    border-right-width: 0px;
+    border-left-width: 3px;
+    border-left-color: rgba(129, 6, 129, 0.459);
+    margin: 5px;
+    justify-content: left;
+}
+
+
+.item-skill{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(102, 51, 153, 0);
+    border: 1px solid rgba(169, 25, 182, 0.116);
+}
+
+.item-skill img{
+    max-width: 150px;
+    max-height: 150px;
+    background-size: cover;
+}
+
+.item-skill h4{
+    color: white;
+    text-align: center;
+}
