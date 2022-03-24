@@ -18,7 +18,7 @@ body{
 }
 
 .about-img{
-    margin-left:-100px;
+    margin-left:-70px;
     
     margin-top: 15px;
     
@@ -66,16 +66,22 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-.bar{
+
+
+
+
+.bar{ 
+    rotate:90deg;
     background-color: rgba(15, 1, 1, 0.589);
     display: block;
-    margin-top: 10px;
+    width: 50px;
     height: 5px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 2px 0px 10px rgb(0, 217, 255);
 }
+
 
 .list-group-item{
     background-color: rgba(0, 0, 0, 0);
@@ -84,7 +90,7 @@ body{
 .bar span{
     height: 4px;
     float: left;
-    background:#e205a0
+    background:#e205a0;
 }
 
 .text{
@@ -132,8 +138,8 @@ p{
 
 .card{
     display: flex;
-    height: 430px;
-    min-height: 425px;
+    height: 465px;
+    min-height: 435px;
     background-color: rgba(58, 58, 250, 0.219);
 
 }
@@ -172,6 +178,7 @@ p{
 }
 
 .item-skill h4{
+    
     color: white;
     text-align: center;
 }
